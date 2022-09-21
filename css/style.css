@@ -1,0 +1,496 @@
+/*---------------------------------HEADER-------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #D16014;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    height: "110px";
+    width: "380px";
+}
+
+.navbar-1__links{
+    list-style: none;
+}
+
+.navbar-1__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar-1__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navbar-1__links li a :hover{
+    color:#0088a9
+
+}
+
+.button{
+    padding: 9px 25px;
+    background-color: rgba(0, 37, 180, 0.90);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+
+.button-1{
+  padding: 18px 50px;
+  background-color: rgba(0, 37, 180, 0.90);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  margin-inline: 100px;
+}
+
+.button-2{
+  padding: 5px 10px;
+  background-color: rgba(22, 52, 169, 0.9);
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(238, 139, 17, 0.8);
+}
+/*-----------------------------QUOTES--------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    color: #06131a;
+    margin: 0px 0px 15px 0px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 38px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+p {
+    margin: 0 0 20px;
+    line-height: 1.7;
+}
+
+p:last-child {
+    margin: 0px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #50595e;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    color: #ce0058;
+}
+
+
+/*--------------------------------------------------------Company Inro----------------------------------------------------------------------*/
+
+.box{
+    background-color: rgba(38, 44, 38, 0.8);
+    height: 350px;
+}
+
+
+h1 {
+  letter-spacing: 1.4px;
+  line-height: 1.2;
+  font-size: 120px;
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 50px;
+  background: none;
+  padding-top: 110px;
+}
+
+
+
+/*--------------------------------------------------------Setion 1----------------------------------------------------------------------*/
+
+.button-1{
+  background-color: rgb(40, 56, 177);
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+h2{
+  background: none;
+  color: #ec7f19;
+}
+
+.multi-button button-1{
+  justify-content: space-around;
+}
+
+#projects_button:hover{
+  background-color: rgba(238, 139, 17, 0.8);
+}
+
+
+.multi-button{
+  text-align: center;
+  background-color: rgba(40, 40, 42, 0.7);
+  justify-content: space-around;
+}
+
+
+#section-1{
+    background-image: url(https://bm8n4bus276xody2tdiiu1ea-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/Beaumont-Avenue-Recharge-Facility-01-.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    background-attachment: fixed;
+}
+
+
+
+
+/*--------------------------------------------------------Meet Our Team----------------------------------------------------------------------*/
+
+
+/* Three columns side by side */
+.column-1 {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 600px) {
+  .column-1 {
+    width: 100%;
+    display: block;
+  }
+}
+h1{
+  text-align: center;
+}
+
+.team{
+  text-align: center;
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+img{
+  height: fit-content;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 70%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+
+/*--------------------------------------------------------Section 2 (CONTACT US)----------------------------------------------------------------------*/
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 8px; 
+  border: 1px solid #ccc; 
+  border-radius: 2px; 
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+  display: flex;
+}
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.map{
+ border: black solid 2px;
+ justify-content: center;
+ width: auto;
+ margin: auto;
+ margin-top: 70px;
+}
+
+.index--form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+
+
+/*--------------------------------------------------------Mobile----------------------------------------------------------------------*/
+@media (min-width:1000px){
+  .map{
+    border: black solid 2px;
+    justify-content: center;
+    width: auto;
+    margin: auto;
+    margin-top: 70px;
+    margin-left: 20%;
+   }
+}
+
+@media (min-width:1280px){
+  .map{
+    border: black solid 2px;
+    justify-content: center;
+    width: auto;
+    margin: auto;
+    margin-top: 70px;
+    margin-left: 30%;
+   }
+}
+@media (max-width:768px){
+
+  section-1{
+      flex-direction: column;
+  }
+  
+
+  .logo {
+    height: 90;
+    width: 290;
+    margin-left: 60px;
+    margin-right: -40px;
+}
+
+header{
+  width: auto;
+  display:contents;
+}
+
+.button-2{
+  visibility: hidden;
+}
+.nav{
+  justify-content: center;
+}
+    
+.button{
+  padding: 3px 8.333px;
+  background-color: rgba(0, 37, 180, 0.90);
+  border: none;
+  border-radius: 16.666px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-right: 70px;
+  width: 100%;
+}
+
+.button-1{
+  background-color: rgba(0, 37, 180, 0.90);
+  border: none;
+  border-radius: 16.666px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  width: 70vw;
+  margin: 0px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+}
+.button-3{
+  background-color: rgba(0, 37, 180, 0.90);
+  border: none;
+  border-radius: 16.666px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  width: 70vw;
+  margin: 0px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+}
+*{
+  margin: 0px;
+}
+
+.map{
+  width: 100%;
+  height: 320px;
+}
+
+.button-2{
+  padding: 9px 25px;
+  background-color: rgba(0, 37, 180, 0.90);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  
+}
+
+
+
+.input-button{
+  margin: auto;
+}
+
+.index--form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.map{
+  justify-content: center;
+}
+
+
+
+
+}
+
+@media (min-width:768px){
+  .map{
+    width: 400px;
+    height: 500px;
+  }
+
+}
+
+/*------------------------------------------------Footer---------------------------------------*/
+
+.footer-1{
+  background-color: rgba(38, 44, 38, 0.8);
+  height: 170px;
+  flex: auto;
+  flex-direction: column;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.footer_distributed{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #666;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 35px 30px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.footer_p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: x-large;
+}
+
+.footer_links{
+  float: right;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
