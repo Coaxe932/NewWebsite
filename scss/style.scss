@@ -24,17 +24,9 @@ $background-color_10: #45a049;
 $background-color_11: #f2f2f2;
 $background-color_12: #666;
 
-/*---------------------------------HEADER-------------------------------------------*/
+
 @import "https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap";
-/*-----------------------------QUOTES--------------------------------*/
-/*--------------------------------------------------------Company Inro----------------------------------------------------------------------*/
-/*--------------------------------------------------------Setion 1----------------------------------------------------------------------*/
-/*--------------------------------------------------------Meet Our Team----------------------------------------------------------------------*/
-/* Three columns side by side */
-/* Display the columns below each other instead of side by side on small screens */
-/*--------------------------------------------------------Section 2 (CONTACT US)----------------------------------------------------------------------*/
-/*--------------------------------------------------------Mobile----------------------------------------------------------------------*/
-/*------------------------------------------------Footer---------------------------------------*/
+
 li {
 	font-family: $font-family_1;
 	font-weight: 500;
@@ -146,7 +138,7 @@ h1 {
 	font-size: 36px;
 	letter-spacing: 1.4px;
 	line-height: 1.2;
-	font-size: 70px;
+	font-size: 120px;
 	justify-content: center;
 	font-family: $font-family_3;
 	padding: 50px;
@@ -201,7 +193,7 @@ p {
 }
 .box {
 	background-color: $background-color_4;
-	height: 400px;
+	height: 350px;
 }
 .multi-button {
 	button-1 {
@@ -220,20 +212,8 @@ p {
 	background-image: url(https://bm8n4bus276xody2tdiiu1ea-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/Beaumont-Avenue-Recharge-Facility-01-.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 750px;
+	height: 650px;
 	background-attachment: fixed;
-}
-html {
-	box-sizing: border-box;
-}
-* {
-	box-sizing: inherit;
-	&:before {
-		box-sizing: inherit;
-	}
-	&:after {
-		box-sizing: inherit;
-	}
 }
 .column-1 {
 	float: left;
@@ -332,10 +312,11 @@ input[type=submit] {
 }
 .footer-1 {
 	background-color: $background-color_4;
-	height: 75px;
+	height: 170px;
 	flex: auto;
 	flex-direction: column;
 	margin-top: 10px;
+	padding: 10px;
 }
 .footer_distributed {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);

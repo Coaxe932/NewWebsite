@@ -5,8 +5,9 @@ $font-family_1: "Montserrat", sans-serif;
 $font-family_2: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 $background-color_1: rgba(0, 37, 180, 0.90);
 $background-color_2: rgba(238, 139, 17, 0.8);
-$background-color_3: rgba(38, 44, 38, 0.8);
-$background-color_4: #666;
+$background-color_3: rgb(167, 150, 129);
+$background-color_4: rgba(38, 44, 38, 0.8);
+$background-color_5: #666;
 
 
 @import "https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap";
@@ -63,16 +64,57 @@ header {
 		}
 	}
 }
-.button-2 {
-	padding: 9px 25px;
-	background-color: $background-color_1;
-	border: none;
-	border-radius: 50px;
-	cursor: pointer;
-	transition: all 0.3s ease 0s;
+.about-section {
+	display: grid;
+	padding: 30px;
+	grid-template-columns: 40% 30% 30%;
+	grid-template-rows: auto;
+	grid-template-areas: "header header header header" "main main sideimage . ""sideimage-1 des des des";
+}
+.about-section-1 {
+	display: grid;
+	background-color: $background-color_3;
+	padding: 30px;
+	grid-template-columns: 40% 30% 30%;
+	grid-template-rows: auto;
+	grid-template-areas: "header header header header" "main main sideimage . ""sideimage-1 des des des";
+}
+.about-section-2 {
+	display: grid;
+	padding: 30px;
+	grid-template-columns: 40% 30% 30%;
+	grid-template-rows: auto;
+	grid-template-areas: "header header header header" "main main sideimage . ""sideimage-1 des des des";
+}
+.item-a {
+	text-align: center;
+	grid-area: header;
+}
+.item-b {
+	text-align: center;
+	grid-area: main;
+}
+.item-c {
+	grid-area: sideimage;
+	padding: 10px;
+	border-radius: 5%;
+	border: 2px #222;
+	margin-top: 20px;
+}
+.item-d {
+	grid-area: sideimage-1;
+	padding: 10px;
+	border-radius: 5%;
+	border: 2px #222;
+	margin-top: 20px;
+	margin-left: 25%;
+}
+.item-e {
+	text-align: center;
+	grid-area: des;
 }
 .footer-1 {
-	background-color: $background-color_3;
+	background-color: $background-color_4;
 	height: 170px;
 	flex: auto;
 	flex-direction: column;
@@ -81,7 +123,7 @@ header {
 }
 .footer_distributed {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	background-color: $background-color_4;
+	background-color: $background-color_5;
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
