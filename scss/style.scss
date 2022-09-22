@@ -107,29 +107,7 @@ header {
 		background-color: $background-color_8;
 	}
 }
-.button-1 {
-	padding: 18px 50px;
-	background-color: $background-color_1;
-	border: none;
-	border-radius: 30px;
-	cursor: pointer;
-	transition: all 0.5s ease 0s;
-	margin-inline: 100px;
-	background-color: $background-color_5;
-	cursor: pointer;
-	transition: all 0.5s ease 0s;
-	justify-content: space-around;
-	margin-bottom: 20px;
-	margin-top: 20px;
-}
-.button-2 {
-	padding: 5px 10px;
-	background-color: $background-color_2;
-	border: none;
-	border-radius: 15px;
-	cursor: pointer;
-	transition: all 0.5s ease 0s;
-}
+
 h1 {
 	font-weight: 500;
 	color: $color_3;
@@ -194,6 +172,9 @@ p {
 .box {
 	background-color: $background-color_4;
 	height: 350px;
+	p{
+		font-size: x-large;
+	}
 }
 .multi-button {
 	button-1 {
@@ -201,7 +182,22 @@ p {
 	}
 	text-align: center;
 	background-color: $background-color_6;
-	justify-content: space-around;
+}
+
+.container-1{
+	p{
+		font-size: large;
+		float: left;
+		background-color: #95aba3;
+		padding: 10px;
+		border-radius: 15%;
+		margin-top: 100px;
+		margin-left: 100px;
+		height: 400px;
+		width: 500px;
+		box-shadow: #000;
+
+	}
 }
 #projects_button {
 	&:hover {
@@ -212,7 +208,14 @@ p {
 	background-image: url(https://bm8n4bus276xody2tdiiu1ea-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/Beaumont-Avenue-Recharge-Facility-01-.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 650px;
+	height: 750px;
+	background-attachment: fixed;
+}
+#section-2 {
+	background-image: url(http://orlandoconstructionllc.com/wp-content/uploads/2020/01/Beltway-Commerce_1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 550px;
 	background-attachment: fixed;
 }
 .column-1 {
@@ -220,6 +223,7 @@ p {
 	width: 33.3%;
 	margin-bottom: 16px;
 	padding: 0 8px;
+	height: 70%;
 }
 .team {
 	text-align: center;
@@ -384,6 +388,10 @@ input[type=submit] {
 	section-1 {
 		flex-direction: column;
 	}
+	section-2 {
+		flex-direction: column;
+	}
+	
 	.logo {
 		height: 90;
 		width: 290;

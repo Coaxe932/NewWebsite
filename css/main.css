@@ -1021,7 +1021,9 @@ select {
   font-weight: 700;
   background-color: white;
   border: solid black 3px;
-  display: inline-block; }
+  display: inline-block;
+  padding: 5px;
+  border-radius: 10%; }
 
 .footer-1 {
   background-color: rgba(38, 44, 38, 0.8);
@@ -1147,29 +1149,6 @@ header {
   .button:hover {
     background-color: #555; }
 
-.button-1 {
-  padding: 18px 50px;
-  background-color: rgba(0, 37, 180, 0.9);
-  border: none;
-  border-radius: 30px;
-  cursor: pointer;
-  transition: all 0.5s ease 0s;
-  margin-inline: 100px;
-  background-color: #2838b1;
-  cursor: pointer;
-  transition: all 0.5s ease 0s;
-  justify-content: space-around;
-  margin-bottom: 20px;
-  margin-top: 20px; }
-
-.button-2 {
-  padding: 5px 10px;
-  background-color: rgba(22, 52, 169, 0.9);
-  border: none;
-  border-radius: 15px;
-  cursor: pointer;
-  transition: all 0.5s ease 0s; }
-
 h1 {
   font-weight: 500;
   color: #06131a;
@@ -1233,13 +1212,26 @@ p {
 .box {
   background-color: rgba(38, 44, 38, 0.8);
   height: 350px; }
+  .box p {
+    font-size: x-large; }
 
 .multi-button {
   text-align: center;
-  background-color: rgba(40, 40, 42, 0.7);
-  justify-content: space-around; }
+  background-color: rgba(40, 40, 42, 0.7); }
   .multi-button button-1 {
     justify-content: space-around; }
+
+.container-1 p {
+  font-size: large;
+  float: left;
+  background-color: #95aba3;
+  padding: 10px;
+  border-radius: 15%;
+  margin-top: 100px;
+  margin-left: 100px;
+  height: 400px;
+  width: 500px;
+  box-shadow: #000; }
 
 #projects_button:hover {
   background-color: rgba(238, 139, 17, 0.8); }
@@ -1248,14 +1240,22 @@ p {
   background-image: url(https://bm8n4bus276xody2tdiiu1ea-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/Beaumont-Avenue-Recharge-Facility-01-.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 650px;
+  height: 750px;
+  background-attachment: fixed; }
+
+#section-2 {
+  background-image: url(http://orlandoconstructionllc.com/wp-content/uploads/2020/01/Beltway-Commerce_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
   background-attachment: fixed; }
 
 .column-1 {
   float: left;
   width: 33.3%;
   margin-bottom: 16px;
-  padding: 0 8px; }
+  padding: 0 8px;
+  height: 70%; }
 
 .team {
   text-align: center;
@@ -1409,6 +1409,8 @@ input[type=submit] {
 
 @media (max-width: 768px) {
   section-1 {
+    flex-direction: column; }
+  section-2 {
     flex-direction: column; }
   .logo {
     height: 90;
