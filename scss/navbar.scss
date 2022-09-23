@@ -1,0 +1,100 @@
+
+
+
+
+
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap";
+
+li {
+	font-family: $font-family_1;
+	font-weight: 500;
+	font-size: 16px;
+	color: $color_1;
+	text-decoration: none;
+}
+
+a {
+	font-family: $font-family_1;
+	font-weight: 500;
+	font-size: 16px;
+	color: $color_1;
+	text-decoration: none;
+	text-decoration: none;
+	color: $color_4;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+
+	&:focus {
+		text-decoration: none;
+		color: $color_5;
+	}
+
+	&:hover {
+		text-decoration: none;
+		color: $color_5;
+	}
+}
+
+button {
+	font-family: $font-family_1;
+	font-weight: 500;
+	font-size: 16px;
+	color: $color_1;
+	text-decoration: none;
+
+	&:hover {
+		background-color: $background-color_3;
+	}
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 30px 10%;
+}
+
+.logo {
+	height: "110px";
+	width: "380px";
+}
+
+.navbar-1__links {
+	list-style: none;
+
+	li {
+		display: inline-block;
+		padding: 0px 20px;
+
+		a {
+			transition: all 0.3s ease 0s;
+
+			&:hover {
+				color: $color_2;
+			}
+		}
+	}
+}
+
+.button {
+	padding: 9px 25px;
+	background-color: $background-color_1;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: $color_8;
+	background-color: $background-color_7;
+	text-align: center;
+	cursor: pointer;
+	width: 70%;
+
+	&:hover {
+		background-color: $background-color_8;
+	}
+}
