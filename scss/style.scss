@@ -24,7 +24,10 @@ $background-color_11: #f2f2f2;
 $background-color_12: #666;
 
 
-
+*{
+	margin: 0;
+	padding: 0;
+}
 
 h1 {
 	font-weight: 500;
@@ -153,7 +156,7 @@ p {
 	height: 750px;
 	background-attachment: fixed;
 }
-
+ 
 .column-10 {
 	float: left;
 	width: 33.3%;
@@ -177,7 +180,7 @@ img {
 
 	img {
 		border-radius: 5px;
-		height: 300px;
+		height: 400px;
 		width: 100%;
 	}
 }
@@ -203,12 +206,13 @@ img {
 		clear: both;
 		display: table;
 	}
-	height: 5px;
+	height: 100%;
 }
 
 .title {
 	color: $color_7;
 }
+
 
 input[type=text] {
 	width: 100%;
@@ -297,108 +301,6 @@ input[type=submit] {
 	}
 }
 
-@media (max-width:768px) {
-
-	.section-1 {
-		flex-direction: column;
-	}
-
-	.section-2 {
-		height: 1900px;
-	}
-
-	.box--index {
-		p {
-			font-size: small;
-			margin-bottom: 30px;
-		}
-	}
-
-
-	.logo {
-		height: 90;
-		width: 290;
-		margin-left: 60px;
-		margin-right: -40px;
-	}
-
-	header {
-		width: auto;
-		display: contents;
-	}
-
-	.button-2 {
-		visibility: hidden;
-		padding: 9px 25px;
-		background-color: $background-color_1;
-		border: none;
-		border-radius: 50px;
-		cursor: pointer;
-		transition: all 0.3s ease 0s;
-	}
-
-	.nav {
-		justify-content: center;
-	}
-
-	.button {
-		padding: 3px 8.333px;
-		background-color: $background-color_1;
-		border: none;
-		border-radius: 16.666px;
-		cursor: pointer;
-		transition: all 0.3s ease 0s;
-		margin-right: 70px;
-		width: 100%;
-	}
-
-	.button-1 {
-		background-color: $background-color_1;
-		border: none;
-		border-radius: 16.666px;
-		cursor: pointer;
-		transition: all 0.5s ease 0s;
-		width: 70vw;
-		margin: 0px;
-		padding: 5px;
-		margin-top: 5px;
-		margin-bottom: 5px;
-	}
-
-	.button-3 {
-		background-color: $background-color_1;
-		border: none;
-		border-radius: 16.666px;
-		cursor: pointer;
-		transition: all 0.5s ease 0s;
-		width: 70vw;
-		margin: 0px;
-		padding: 5px;
-		margin-top: 5px;
-		margin-bottom: 5px;
-	}
-
-	* {
-		margin: 0px;
-	}
-
-	.map {
-		width: 100%;
-		height: 320px;
-		justify-content: center;
-	}
-
-	.input-button {
-		margin: auto;
-	}
-
-	.index--form {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
-
-}
 
 @media (min-width:768px) {
 	.map {
@@ -431,6 +333,8 @@ input[type=submit] {
 
 }
 
+
+
 @media(max-width: 425px) {
 
 	.column-10 {
@@ -447,6 +351,14 @@ input[type=submit] {
 		height: 370px;
 
 
+	}
+
+	.section-2 {
+		background-image: url(http://orlandoconstructionllc.com/wp-content/uploads/2020/01/Beltway-Commerce_1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 2100px;
+		background-attachment: fixed;
 	}
 
 
