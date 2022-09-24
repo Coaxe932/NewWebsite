@@ -52,6 +52,20 @@
   margin-top: 17%;
   margin-right: 32%; }
 
+.text-3 {
+  text-align: center;
+  grid-area: des;
+  font-style: italic;
+  font-weight: 500;
+  text-decoration: dotted;
+  margin-top: 17%;
+  margin-right: 32%; }
+
+.about-section-3 {
+  display: block;
+  padding: 30px;
+  text-align: center; }
+
 li {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -814,7 +828,7 @@ img {
   margin-top: 20px; }
   .card-1 img {
     border-radius: 5px;
-    height: 400px;
+    height: 475px;
     width: 100%; }
 
 .container-2 {
@@ -917,7 +931,20 @@ input[type=submit] {
     width: 400px;
     height: 500px; } }
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
+  .column-10 {
+    display: block;
+    width: 100%; }
+  .card-1 {
+    height: 650px; }
+  .box--index h1 {
+    padding-top: 15px; }
+  .section-2 {
+    background-image: url(http://orlandoconstructionllc.com/wp-content/uploads/2020/01/Beltway-Commerce_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-attachment: fixed; }
   .column-10 {
     display: block;
     width: 100%; }
@@ -926,22 +953,13 @@ input[type=submit] {
   .box--index {
     height: 200px; }
     .box--index p {
-      visibility: hidden; } }
-
-@media (max-width: 425px) {
-  .column-10 {
-    display: block;
-    width: 100%; }
-  .card-1 {
-    height: 650px; }
-  .box--index {
-    height: 370px; }
-  .section-2 {
-    background-image: url(http://orlandoconstructionllc.com/wp-content/uploads/2020/01/Beltway-Commerce_1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 2100px;
-    background-attachment: fixed; } }
+      visibility: hidden; }
+  .row-1 {
+    height: 2250px; }
+    .row-1::after {
+      content: "";
+      clear: both;
+      display: table; } }
 
 li {
   font-family: "Montserrat", sans-serif;
@@ -1035,15 +1053,6 @@ header {
     transition: all 0.3s ease 0s; }
   .nav {
     justify-content: center; }
-  .button {
-    padding: 3px 8.333px;
-    background-color: rgba(0, 37, 180, 0.9);
-    border: none;
-    border-radius: 16.666px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    margin-right: 70px;
-    width: 100%; }
   .button-1 {
     background-color: rgba(0, 37, 180, 0.9);
     border: none;
@@ -1120,3 +1129,20 @@ header {
 
 .footer_links {
   float: right; }
+
+@media (max-width: 400px) {
+  .column-10 {
+    display: block;
+    width: 100%; }
+  .card-1 {
+    height: 650px; }
+  .box--index {
+    height: 200px; }
+    .box--index p {
+      visibility: hidden; } }
+
+@media (max-width: 425px) {
+  .footer_distributed {
+    height: 235px; }
+  .footer-1 {
+    height: 280px; } }

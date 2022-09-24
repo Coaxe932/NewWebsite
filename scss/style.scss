@@ -24,7 +24,7 @@ $background-color_11: #f2f2f2;
 $background-color_12: #666;
 
 
-*{
+* {
 	margin: 0;
 	padding: 0;
 }
@@ -156,7 +156,7 @@ p {
 	height: 750px;
 	background-attachment: fixed;
 }
- 
+
 .column-10 {
 	float: left;
 	width: 33.3%;
@@ -180,7 +180,7 @@ img {
 
 	img {
 		border-radius: 5px;
-		height: 400px;
+		height: 475px;
 		width: 100%;
 	}
 }
@@ -309,7 +309,35 @@ input[type=submit] {
 	}
 }
 
-@media(max-width: 400px) {
+
+
+@media(max-width: 425px) {
+
+	.column-10 {
+		display: block;
+		width: 100%;
+	}
+
+	.card-1 {
+		height: 650px;
+	}
+
+	.box--index {
+
+		h1{
+			padding-top: 15px;
+		}
+
+
+	}
+
+	.section-2 {
+		background-image: url(http://orlandoconstructionllc.com/wp-content/uploads/2020/01/Beltway-Commerce_1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 700px;
+		background-attachment: fixed;
+	}
 
 	.column-10 {
 		display: block;
@@ -330,36 +358,16 @@ input[type=submit] {
 
 	}
 
-
-}
-
-
-
-@media(max-width: 425px) {
-
-	.column-10 {
-		display: block;
-		width: 100%;
+	.row-1 {
+		&::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+		height: 2250px;
 	}
 
-	.card-1 {
-		height: 650px;
-	}
-
-	.box--index {
-
-		height: 370px;
-
-
-	}
-
-	.section-2 {
-		background-image: url(http://orlandoconstructionllc.com/wp-content/uploads/2020/01/Beltway-Commerce_1.jpg);
-		background-repeat: no-repeat;
-		background-size: cover;
-		height: 2100px;
-		background-attachment: fixed;
-	}
+	
 
 
 }
