@@ -66,6 +66,21 @@
   padding: 30px;
   text-align: center; }
 
+@media (max-width: 425px) {
+  .about-section-1 {
+    display: block; }
+  .about-section-2 {
+    display: none; }
+  .about-section-3 {
+    display: none; }
+  .pic-truck {
+    width: 100%;
+    height: auto; }
+  .header-about {
+    height: 1px;
+    padding: 0px;
+    font-size: xxx-large; } }
+
 li {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -828,7 +843,7 @@ img {
   margin-top: 20px; }
   .card-1 img {
     border-radius: 5px;
-    height: 475px;
+    height: 450px;
     width: 100%; }
 
 .container-2 {
