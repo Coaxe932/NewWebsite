@@ -9,7 +9,7 @@ $background-color_3: grey;
 @import "https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap";
 
 .about-section-1 {
-	display: grid;
+	display: grid; 
 	padding: 30px;
 	grid-template-columns: 40% 30% 30%;
 	grid-template-rows: auto;
@@ -61,7 +61,8 @@ $background-color_3: grey;
 	font-weight: 500;
 	text-decoration: dotted;
 	margin-top: 17%;
-	margin-right: 32%;
+	margin-right: 42%;
+	float: left;
 }
 
 .text-3 {

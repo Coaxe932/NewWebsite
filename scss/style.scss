@@ -1,7 +1,7 @@
 $color_1: #D16014;
 $color_2: #0088a9;
 $color_3: #06131a;
-$color_4: #50595e;
+$color_4: #2a2a2a;
 $color_5: #ce0058;
 $color_6: #ec7f19;
 $color_7: grey;
@@ -102,11 +102,14 @@ p {
 	background-color: $background-color_4;
 	height: 350px;
 	padding: 10px;
-	border: 3px solid #000;
 
 	p {
 		font-size: x-large;
 		text-align: center;
+	}
+
+	h1{
+		font-size: xxx-large;
 	}
 }
 
@@ -142,7 +145,7 @@ p {
 }
 
 .section-1 {
-	background-image: url(https://bm8n4bus276xody2tdiiu1ea-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/Beaumont-Avenue-Recharge-Facility-01-.jpg);
+	background-image: url(http://orlandoconstructionllc.com/wp-content/uploads/2020/01/Beltway-Commerce_1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 750px;
@@ -150,7 +153,7 @@ p {
 }
 
 .section-2 {
-	background-image: url(http://orlandoconstructionllc.com/wp-content/uploads/2020/01/Beltway-Commerce_1.jpg);
+	background-image: url(https://orlandoconstructionllc.com/wp-content/uploads/2020/01/Princeton-Oaks.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 750px;
@@ -159,7 +162,7 @@ p {
 
 .column-10 {
 	float: left;
-	width: 33.3%;
+	width: 25%;
 	margin-bottom: 16px;
 	padding: 0 8px;
 }
@@ -180,7 +183,7 @@ img {
 
 	img {
 		border-radius: 5px;
-		height: 450px;
+		height: 250px;
 		width: 100%;
 	}
 }
@@ -316,16 +319,18 @@ input[type=submit] {
 	.column-10 {
 		display: block;
 		width: 100%;
+		height: 670px;
 	}
 
 	.card-1 {
-		height: 650px;
+		height: 200px;
 	}
 
 	.box--index {
 
 		h1{
 			padding-top: 15px;
+			font-size: x-large;
 		}
 
 
@@ -339,14 +344,7 @@ input[type=submit] {
 		background-attachment: fixed;
 	}
 
-	.column-10 {
-		display: block;
-		width: 100%;
-	}
 
-	.card-1 {
-		height: 650px;
-	}
 
 	.box--index {
 
@@ -364,7 +362,7 @@ input[type=submit] {
 			clear: both;
 			display: table;
 		}
-		height: 2250px;
+		height: 2800px;
 	}
 
 	

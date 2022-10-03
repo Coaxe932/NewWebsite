@@ -50,7 +50,8 @@
   font-weight: 500;
   text-decoration: dotted;
   margin-top: 17%;
-  margin-right: 32%; }
+  margin-right: 42%;
+  float: left; }
 
 .text-3 {
   text-align: center;
@@ -80,118 +81,6 @@
     height: 1px;
     padding: 0px;
     font-size: xxx-large; } }
-
-li {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  color: #D16014;
-  text-decoration: none; }
-
-a {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  color: #D16014;
-  text-decoration: none;
-  text-decoration: none;
-  color: #50595e;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s; }
-  a:focus {
-    text-decoration: none;
-    color: #ce0058; }
-  a:hover {
-    text-decoration: none;
-    color: #ce0058; }
-
-button {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  color: #D16014;
-  text-decoration: none;
-  padding: 9px 25px;
-  background-color: rgba(0, 37, 180, 0.9);
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s; }
-  button:hover {
-    background-color: rgba(238, 139, 17, 0.8); }
-
-header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 30px 10%; }
-
-.logo {
-  background: none; }
-
-.nav__links {
-  list-style: none; }
-  .nav__links li {
-    display: inline-block;
-    padding: 0px 20px; }
-    .nav__links li a {
-      transition: all0 0.3s ease 0s; }
-      .nav__links li a:hover {
-        color: #0088a9; }
-
-body {
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  font-family: "Barlow Semi Condensed", sans-serif;
-  letter-spacing: 0px;
-  font-size: 18px;
-  color: #50595e;
-  font-weight: 400;
-  line-height: 28px; }
-
-h1 {
-  font-weight: 500;
-  color: #06131a;
-  margin: 0px 0px 15px 0px;
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-size: 36px; }
-
-h2 {
-  font-weight: 500;
-  color: #06131a;
-  margin: 0px 0px 15px 0px;
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-size: 30px;
-  line-height: 38px; }
-
-h3 {
-  font-weight: 500;
-  color: #06131a;
-  margin: 0px 0px 15px 0px;
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-size: 22px; }
-
-h4 {
-  font-weight: 500;
-  color: #06131a;
-  margin: 0px 0px 15px 0px;
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-size: 18px; }
-
-h5 {
-  font-weight: 500;
-  color: #06131a;
-  margin: 0px 0px 15px 0px;
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-size: 16px; }
-
-h6 {
-  font-weight: 500;
-  color: #06131a;
-  margin: 0px 0px 15px 0px;
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-size: 14px; }
 
 p {
   margin: 0 0 20px;
@@ -783,11 +672,12 @@ p {
 .box--index {
   background-color: rgba(38, 44, 38, 0.8);
   height: 350px;
-  padding: 10px;
-  border: 3px solid #000; }
+  padding: 10px; }
   .box--index p {
     font-size: x-large;
     text-align: center; }
+  .box--index h1 {
+    font-size: xxx-large; }
 
 .multi-button {
   text-align: center;
@@ -811,14 +701,14 @@ p {
   background-color: rgba(238, 139, 17, 0.8); }
 
 .section-1 {
-  background-image: url(https://bm8n4bus276xody2tdiiu1ea-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/Beaumont-Avenue-Recharge-Facility-01-.jpg);
+  background-image: url(http://orlandoconstructionllc.com/wp-content/uploads/2020/01/Beltway-Commerce_1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 750px;
   background-attachment: fixed; }
 
 .section-2 {
-  background-image: url(http://orlandoconstructionllc.com/wp-content/uploads/2020/01/Beltway-Commerce_1.jpg);
+  background-image: url(https://orlandoconstructionllc.com/wp-content/uploads/2020/01/Princeton-Oaks.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 750px;
@@ -826,7 +716,7 @@ p {
 
 .column-10 {
   float: left;
-  width: 33.3%;
+  width: 25%;
   margin-bottom: 16px;
   padding: 0 8px; }
 
@@ -843,7 +733,7 @@ img {
   margin-top: 20px; }
   .card-1 img {
     border-radius: 5px;
-    height: 450px;
+    height: 250px;
     width: 100%; }
 
 .container-2 {
@@ -949,28 +839,25 @@ input[type=submit] {
 @media (max-width: 425px) {
   .column-10 {
     display: block;
-    width: 100%; }
+    width: 100%;
+    height: 670px; }
   .card-1 {
-    height: 650px; }
+    height: 200px; }
   .box--index h1 {
-    padding-top: 15px; }
+    padding-top: 15px;
+    font-size: x-large; }
   .section-2 {
     background-image: url(http://orlandoconstructionllc.com/wp-content/uploads/2020/01/Beltway-Commerce_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
     background-attachment: fixed; }
-  .column-10 {
-    display: block;
-    width: 100%; }
-  .card-1 {
-    height: 650px; }
   .box--index {
     height: 200px; }
     .box--index p {
       visibility: hidden; }
   .row-1 {
-    height: 2250px; }
+    height: 2800px; }
     .row-1::after {
       content: "";
       clear: both;
@@ -990,7 +877,7 @@ a {
   color: #D16014;
   text-decoration: none;
   text-decoration: none;
-  color: #50595e;
+  color: #2a2a2a;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s; }
