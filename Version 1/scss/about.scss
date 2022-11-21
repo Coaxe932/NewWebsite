@@ -1,0 +1,111 @@
+$color_3: white;
+$background-color_3: grey;
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap";
+
+.about-section-1 {
+	display: grid; 
+	padding: 30px;
+	grid-template-columns: 40% 30% 30%;
+	grid-template-rows: auto;
+	grid-template-areas: 
+	"heaedr header header header"
+	 "main sideimage sideimage sideimage"
+	 "sideimage-1 des des des";
+}
+.header-about {
+	text-align: center;
+	grid-area: header;
+}
+
+.text-1 {
+	text-align: center;
+	grid-area: main;
+	margin-top: 35px;
+	margin-right: 7px;
+}
+.pic-truck {
+	grid-area: sideimage;
+	height: 400px;
+	width: 800px;
+	border-radius: 5%;
+}
+
+.about-section-2 {
+	display: grid;
+	background-color: $background-color_3;
+	padding: 30px;
+	grid-template-columns: 40% 30% 30%;
+	grid-template-rows: auto;
+	grid-template-areas: 
+	"header header header header"
+	"main main sideimage . "
+	"sideimage-1 sideimage-1 des des";
+}
+ 
+.whole-team {
+	grid-area: sideimage-1;
+	max-height: 500px;
+	max-width: 700px;
+	border-radius: 5%;
+}
+.text-2 {
+	text-align: center;
+	grid-area: des;
+	font-style: italic;
+	font-weight: 500;
+	text-decoration: dotted;
+	margin-top: 17%;
+	margin-right: 42%;
+	float: left;
+}
+
+.text-3 {
+	text-align: center;
+	grid-area: des;
+	font-style: italic;
+	font-weight: 500;
+	text-decoration: dotted;
+	margin-top: 17%;
+	margin-right: 32%;
+}
+
+
+.about-section-3 {
+	display: block;
+	padding: 30px;
+	text-align: center;
+
+}
+
+@media(max-width: 425px){
+
+	.about-section-1 {
+		display: block;
+	}
+
+	.about-section-2 {
+		display: none;
+	}
+
+	.about-section-3{
+		display: none;
+	}
+
+	.pic-truck{
+		width: 100%;
+		height: auto;
+	}
+
+	.header-about{
+		height: 1px;
+		padding: 0px;
+		font-size: xxx-large;
+	}
+
+}

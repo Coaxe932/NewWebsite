@@ -1,0 +1,373 @@
+$color_1: #D16014;
+$color_2: #0088a9;
+$color_3: #06131a;
+$color_4: #2a2a2a;
+$color_5: #ce0058;
+$color_6: #ec7f19;
+$color_7: grey;
+$color_8: white;
+$font-family_1: "Montserrat", sans-serif;
+$font-family_2: 'Barlow Semi Condensed', sans-serif;
+$font-family_3: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+$font-family_4: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+$background-color_1: rgba(0, 37, 180, 0.90);
+$background-color_2: rgba(22, 52, 169, 0.9);
+$background-color_3: rgba(238, 139, 17, 0.8);
+$background-color_4: rgba(38, 44, 38, 0.8);
+$background-color_5: rgb(40, 56, 177);
+$background-color_6: rgba(40, 40, 42, 0.7);
+$background-color_7: #000;
+$background-color_8: #555;
+$background-color_9: #04AA6D;
+$background-color_10: #45a049;
+$background-color_11: #f2f2f2;
+$background-color_12: #666;
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-weight: 500;
+	color: $color_3;
+	margin: 0px 0px 15px 0px;
+	font-family: $font-family_2;
+	font-size: 36px;
+	letter-spacing: 1.4px;
+	line-height: 1.2;
+	font-size: 120px;
+	justify-content: center;
+	font-family: $font-family_3;
+	padding: 50px;
+	background: none;
+	padding-top: 110px;
+	text-align: center;
+}
+
+h2 {
+	font-weight: 500;
+	color: $color_3;
+	margin: 0px 0px 15px 0px;
+	font-family: $font-family_2;
+	font-size: 30px;
+	line-height: 38px;
+	background: none;
+	color: $color_6;
+}
+
+h3 {
+	font-weight: 500;
+	color: $color_3;
+	margin: 0px 0px 15px 0px;
+	font-family: $font-family_2;
+	font-size: 22px;
+}
+
+h4 {
+	font-weight: 500;
+	color: $color_3;
+	margin: 0px 0px 15px 0px;
+	font-family: $font-family_2;
+	font-size: 18px;
+}
+
+h5 {
+	font-weight: 500;
+	color: $color_3;
+	margin: 0px 0px 15px 0px;
+	font-family: $font-family_2;
+	font-size: 16px;
+}
+
+h6 {
+	font-weight: 500;
+	color: $color_3;
+	margin: 0px 0px 15px 0px;
+	font-family: $font-family_2;
+	font-size: 14px;
+}
+
+p {
+	margin: 0 0 20px;
+	line-height: 1.7;
+
+	&:last-child {
+		margin: 0px;
+	}
+}
+
+.box--index {
+	background-color: $background-color_4;
+	height: 350px;
+	padding: 10px;
+
+	p {
+		font-size: x-large;
+		text-align: center;
+	}
+
+	h1{
+		font-size: xxx-large;
+	}
+}
+
+.multi-button {
+	button-1 {
+		justify-content: space-around;
+	}
+
+	text-align: center;
+	background-color: $background-color_6;
+}
+
+.container-1 {
+	p {
+		font-size: large;
+		float: left;
+		background-color: #95aba3;
+		padding: 10px;
+		border-radius: 15%;
+		margin-top: 100px;
+		margin-left: 100px;
+		height: 500px;
+		width: 500px;
+		box-shadow: #000;
+
+	}
+}
+
+#projects_button {
+	&:hover {
+		background-color: $background-color_3;
+	}
+}
+
+.section-1 {
+	background-image: url(http://orlandoconstructionllc.com/wp-content/uploads/2020/01/Beltway-Commerce_1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 750px;
+	background-attachment: fixed;
+}
+
+.section-2 {
+	background-image: url(https://orlandoconstructionllc.com/wp-content/uploads/2020/01/Princeton-Oaks.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 750px;
+	background-attachment: fixed;
+}
+
+.column-10 {
+	float: left;
+	width: 25%;
+	margin-bottom: 16px;
+	padding: 0 8px;
+}
+
+.team {
+	text-align: center;
+	font-size: larger;
+	font-family: $font-family_4;
+}
+
+img {
+	height: fit-content;
+}
+
+.card-1 {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin-top: 20px;
+	overflow: hidden;
+
+	img {
+		border-radius: 5px;
+		height: 250px;
+		width: 100%;
+		overflow: hidden;
+	}
+}
+
+.container-2 {
+	padding: 0 16px;
+	border-radius: 5px;
+	background-color: $background-color_11;
+	padding: 20px;
+
+	&::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+
+	height: 360px;
+}
+
+.row-1 {
+	&::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+	height: 1400px;
+}
+
+.title {
+	color: $color_7;
+}
+
+
+input[type=text] {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	display: flex;
+}
+
+select {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	display: flex;
+}
+
+textarea {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	display: flex;
+}
+
+input[type=submit] {
+	background-color: $background-color_9;
+	color: $color_8;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+
+	&:hover {
+		background-color: $background-color_10;
+	}
+}
+
+.map {
+	border: black solid 2px;
+	justify-content: center;
+	width: auto;
+	margin: auto;
+	margin-top: 70px;
+}
+
+.index--form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 50px;
+}
+
+
+@media (min-width:1000px) {
+	.map {
+		border: black solid 2px;
+		justify-content: center;
+		width: auto;
+		margin: auto;
+		margin-top: 70px;
+		margin-left: 20%;
+	}
+}
+
+@media (min-width:1280px) {
+	.map {
+		border: black solid 2px;
+		justify-content: center;
+		width: auto;
+		margin: auto;
+		margin-top: 70px;
+		margin-left: 30%;
+	}
+}
+
+
+@media (min-width:768px) {
+	.map {
+		width: 400px;
+		height: 500px;
+	}
+}
+
+
+
+@media(max-width: 425px) {
+
+	.column-10 {
+		display: block;
+		width: 100%;
+		height: 670px;
+	}
+
+	.card-1 {
+		height: 200px;
+	}
+
+	.box--index {
+
+		h1{
+			padding-top: 15px;
+			font-size: x-large;
+		}
+
+
+	}
+
+	.section-2 {
+		background-image: url(http://orlandoconstructionllc.com/wp-content/uploads/2020/01/Beltway-Commerce_1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 700px;
+		background-attachment: fixed;
+	}
+
+
+
+	.box--index {
+
+		p {
+			visibility: hidden;
+		}
+
+		height: 200px;
+
+	}
+
+	.row-1 {
+		&::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+		height: 3500px;
+	}
+
+	
+
+
+}

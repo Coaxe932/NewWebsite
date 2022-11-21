@@ -1,0 +1,42 @@
+$color_1: black;
+$background-color_1: #f1f1f1;
+$background-color_2: inherit;
+$background-color_3: #ddd;
+$background-color_4: #ccc;
+
+* {
+	box-sizing: border-box;
+}
+.tab {
+	float: left;
+	border: 1px solid #ccc;
+	background-color: $background-color_1;
+	width: 30%;
+	height: 200px;
+	button {
+		display: block;
+		background-color: $background-color_2;
+		color: $color_1;
+		padding: 22px 16px;
+		width: 100%;
+		border: none;
+		outline: none;
+		text-align: left;
+		cursor: pointer;
+		transition: 0.3s;
+		&:hover {
+			background-color: $background-color_3;
+		}
+	}
+	button.active {
+		background-color: $background-color_4;
+	}
+}
+.tabcontent {
+	float: left;
+	padding: 0px 12px;
+	border: 1px solid #ccc;
+	width: 70%;
+	border-left: none;
+	height: 300px;
+}
