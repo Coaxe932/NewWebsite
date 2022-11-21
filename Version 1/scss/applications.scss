@@ -3,26 +3,28 @@ $background-color_1: #f1f1f1;
 $background-color_2: inherit;
 $background-color_3: #ddd;
 $background-color_4: #ccc;
+$background-color_5: rgb(86, 216, 26);
 
 * {
 	box-sizing: border-box;
 }
 .tab {
-	float: left;
+	translate: 50px 30px;
+	float: none;
 	border: 1px solid #ccc;
 	background-color: $background-color_1;
 	width: 30%;
-	height: 200px;
+	height: fit-content;
 	button {
 		display: block;
 		background-color: $background-color_2;
 		color: $color_1;
-		padding: 22px 16px;
+		padding: 5% 2%;
 		width: 100%;
 		border: none;
 		outline: none;
-		text-align: left;
-		cursor: pointer;
+		text-align: center;
+		cursor: grab;
 		transition: 0.3s;
 		&:hover {
 			background-color: $background-color_3;
@@ -35,8 +37,17 @@ $background-color_4: #ccc;
 .tabcontent {
 	float: left;
 	padding: 0px 12px;
+	padding-left: 20px;
 	border: 1px solid #ccc;
 	width: 70%;
 	border-left: none;
 	height: 300px;
+}
+
+.block_title{
+	text-align: center;
+	padding: 3%;
+	font-size: larger;
+	font-style: italic;
+	font-weight: 500;
 }
