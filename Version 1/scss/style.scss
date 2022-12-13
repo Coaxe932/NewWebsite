@@ -357,7 +357,6 @@ input[type=submit] {
 	.card-1 {
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 		margin-top: 10px;
-		padding-left: 5px;
 		overflow: hidden;
 		height: 200px;
 		border-radius: 5px;
@@ -372,17 +371,14 @@ input[type=submit] {
 
 
 	.column-10 {
-		float: inline-start;
-		width: 40%;
+		width: 50%;
 		margin-bottom: 3px;
 		padding: 13px 15px;
-		translate: 40px 10px;
 	}
 
 	.container-2 {
-		padding: 0 6px;
+		padding: 0 0px;
 		border-radius: 2px;
-		background-color: $background-color_11;
 		padding: 10px;
 
 		&::after {
@@ -394,9 +390,10 @@ input[type=submit] {
 		p {
 			visibility: hidden;
 		}
+		h2{
+			height: fit-content;
+		}
 
-
-		height: 60px;
 	}
 
 	.row-1 {

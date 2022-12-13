@@ -857,7 +857,6 @@ input[type=submit] {
   .card-1 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin-top: 10px;
-    padding-left: 5px;
     overflow: hidden;
     height: 200px;
     border-radius: 5px; }
@@ -867,23 +866,21 @@ input[type=submit] {
       width: 100%;
       overflow: hidden; }
   .column-10 {
-    float: inline-start;
-    width: 40%;
+    width: 50%;
     margin-bottom: 3px;
-    padding: 13px 15px;
-    translate: 40px 10px; }
+    padding: 13px 15px; }
   .container-2 {
-    padding: 0 6px;
+    padding: 0 0px;
     border-radius: 2px;
-    background-color: #f2f2f2;
-    padding: 10px;
-    height: 60px; }
+    padding: 10px; }
     .container-2::after {
       content: "";
       clear: both;
       display: table; }
     .container-2 p {
       visibility: hidden; }
+    .container-2 h2 {
+      height: fit-content; }
   .row-1 {
     height: fit-content; }
   .title {
