@@ -734,9 +734,10 @@ img {
   overflow: hidden; }
   .card-1 img {
     border-radius: 5px;
-    height: 250px;
     width: 100%;
     overflow: hidden; }
+  .card-1 .jobdesc {
+    font-size: medium; }
 
 .container-2 {
   padding: 0 16px;
@@ -750,7 +751,7 @@ img {
     display: table; }
 
 .row-1 {
-  height: 1400px; }
+  height: fit-content; }
   .row-1::after {
     content: "";
     clear: both;

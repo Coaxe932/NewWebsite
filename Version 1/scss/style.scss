@@ -184,9 +184,12 @@ img {
 
 	img {
 		border-radius: 5px;
-		height: 250px;
 		width: 100%;
 		overflow: hidden;
+	}
+
+	.jobdesc{
+		font-size: medium;
 	}
 }
 
@@ -212,7 +215,7 @@ img {
 		display: table;
 	}
 
-	height: 1400px;
+	height: fit-content;
 }
 
 .title {
