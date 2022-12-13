@@ -358,7 +358,7 @@ input[type=submit] {
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 		margin-top: 10px;
 		overflow: hidden;
-		height: 200px;
+		height: 280px;
 		border-radius: 5px;
 
 		img {
@@ -372,7 +372,7 @@ input[type=submit] {
 
 	.column-10 {
 		width: 50%;
-		margin-bottom: 3px;
+		margin-bottom: 50px;
 		padding: 13px 15px;
 	}
 
@@ -387,7 +387,7 @@ input[type=submit] {
 			display: table;
 		}
 
-		p {
+		.jobdesc {
 			visibility: hidden;
 		}
 		h2{
@@ -397,11 +397,20 @@ input[type=submit] {
 	}
 
 	.row-1 {
-		height: fit-content;
+		height: 1000px;
 	}
 
 	.title {
-		visibility: hidden;
+		font-size: large;
 	}
+
+	.box--index{
+		height: 220px;
+
+		h1{
+			translate: 0px 25px;
+		}
+	}
+
 
 }

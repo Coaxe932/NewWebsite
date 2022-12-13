@@ -858,7 +858,7 @@ input[type=submit] {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin-top: 10px;
     overflow: hidden;
-    height: 200px;
+    height: 280px;
     border-radius: 5px; }
     .card-1 img {
       border-radius: 10px;
@@ -867,7 +867,7 @@ input[type=submit] {
       overflow: hidden; }
   .column-10 {
     width: 50%;
-    margin-bottom: 3px;
+    margin-bottom: 50px;
     padding: 13px 15px; }
   .container-2 {
     padding: 0 0px;
@@ -877,14 +877,18 @@ input[type=submit] {
       content: "";
       clear: both;
       display: table; }
-    .container-2 p {
+    .container-2 .jobdesc {
       visibility: hidden; }
     .container-2 h2 {
       height: fit-content; }
   .row-1 {
-    height: fit-content; }
+    height: 1000px; }
   .title {
-    visibility: hidden; } }
+    font-size: large; }
+  .box--index {
+    height: 220px; }
+    .box--index h1 {
+      translate: 0px 25px; } }
 
 li {
   font-family: "Montserrat", sans-serif;
