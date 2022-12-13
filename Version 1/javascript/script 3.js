@@ -3,48 +3,48 @@
 
 
 
-// let saved_password_1 = 'flagpole';
-// let saved_username_1 = 'Nick@centralfloridatapping.com';
-// let saved_password_2 = 'flagpole';
-// let saved_username_2 = 'Rick@centralfloridatapping.com';
-// let saved_password_3 = 'flagpole';
-// let saved_username_3 = 'Mary@centralfloridatapping.com';
-// let saved_password_4 = 'flagpole';
-// let saved_username_4 = 'Vinson@centralfloridatapping.com';
+let saved_password_1 = 'flagpole';
+let saved_username_1 = 'Nick@centralfloridatapping.com';
+let saved_password_2 = 'flagpole';
+let saved_username_2 = 'Rick@centralfloridatapping.com';
+let saved_password_3 = 'flagpole';
+let saved_username_3 = 'Mary@centralfloridatapping.com';
+let saved_password_4 = 'flagpole';
+let saved_username_4 = 'Vinson@centralfloridatapping.com';
 
-// Swal.fire({
-//     title: 'Enter your CFT Username & Password',
-//     html: `<input type="text" id="login" class="swal2-input" placeholder="Username">
-//     <input type="password" id="password" class="swal2-input" placeholder="Password">`,
-//     confirmButtonText: 'Sign in',
-//     focusConfirm: false,
-//     backdrop: `
-//     rgba(0,0,123,1)`,
-//     preConfirm: () => {
-//         const login = Swal.getPopup().querySelector('#login').value
-//         const password = Swal.getPopup().querySelector('#password').value
-//         if (!login || !password) {
-//             Swal.showValidationMessage(`Please enter login and password`)
-//         }
+Swal.fire({
+    title: 'Enter your CFT Username & Password',
+    html: `<input type="text" id="login" class="swal2-input" placeholder="Username">
+    <input type="password" id="password" class="swal2-input" placeholder="Password">`,
+    confirmButtonText: 'Sign in',
+    focusConfirm: false,
+    backdrop: `
+    rgba(0,0,123,1)`,
+    preConfirm: () => {
+        const login = Swal.getPopup().querySelector('#login').value
+        const password = Swal.getPopup().querySelector('#password').value
+        if (!login || !password) {
+            Swal.showValidationMessage(`Please enter login and password`)
+        }
 
-//         do {
-//             if (password === saved_password_1 && login === saved_username_1)
-//                 Swal.fire("Correct Password")
-//             else if(password === saved_password_2 && login === saved_username_2)
-//             Swal.fire("Correct Password")
-//             else if(password === saved_password_3 && login === saved_username_3)
-//             Swal.fire("Correct Password")
-//             else if(password === saved_password_4 && login === saved_username_4)
-//             Swal.fire("Correct Password")
-//             else
-//                 window.location = "../index.html"
-//             break;
+        do {
+            if (password === saved_password_1 && login === saved_username_1)
+                Swal.fire("Correct Password")
+            else if(password === saved_password_2 && login === saved_username_2)
+            Swal.fire("Correct Password")
+            else if(password === saved_password_3 && login === saved_username_3)
+            Swal.fire("Correct Password")
+            else if(password === saved_password_4 && login === saved_username_4)
+            Swal.fire("Correct Password")
+            else
+                window.location = "../index.html"
+            break;
 
 
-//         }
-//         while (EnterPassword != saved_password)
-//     }
-// })
+        }
+        while (EnterPassword != saved_password)
+    }
+})
 
 
 
