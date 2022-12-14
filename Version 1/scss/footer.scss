@@ -55,30 +55,6 @@ $footer: #222;
 	float: right;
 }
 
-@media(max-width: 400px) {
-
-	.column-10 {
-		display: block;
-		width: 100%;
-	}
-
-	.card-1 {
-		height: 650px;
-	}
-
-	.box--index {
-
-		p {
-			visibility: hidden;
-		}
-
-		height: 200px;
-
-	}
-
-
-}
-
 
 
 @media(max-width: 425px) {

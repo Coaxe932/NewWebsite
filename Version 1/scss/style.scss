@@ -320,7 +320,105 @@ input[type=submit] {
 
 
 
-@media(max-width: 425px) {
+@media(min-width: 330px) {
+
+	.column-10 {
+		display: block;
+		width: 100%;
+		height: 270px;
+	}
+
+
+	.box--index {
+
+		h1 {
+			padding-top: 15px;
+			font-size: x-large;
+		}
+
+
+	}
+
+	.section-2 {
+		background-image: url(http://orlandoconstructionllc.com/wp-content/uploads/2020/01/Beltway-Commerce_1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 700px;
+		background-attachment: fixed;
+	}
+
+
+
+	.box--index {
+
+		p {
+			visibility: hidden;
+		}
+
+	}
+
+	.card-1 {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		margin-top: 10px;
+		overflow: hidden;
+		height: 280px;
+		border-radius: 5px;
+
+		img {
+			border-radius: 10px;
+			height: 130px;
+			width: 100%;
+			overflow: hidden;
+		}
+	}
+
+
+	.column-10 {
+		width: 50%;
+		margin-bottom: 50px;
+		padding: 13px 15px;
+	}
+
+	.container-2 {
+		padding: 0 0px;
+		border-radius: 2px;
+		padding: 10px;
+
+		&::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+
+		.jobdesc {
+			visibility: hidden;
+		}
+		h2{
+			height: fit-content;
+		}
+
+	}
+
+	.row-1 {
+		height: 1000px;
+	}
+
+	.title {
+		font-size: large;
+	}
+
+	.box--index{
+		height: 220px;
+
+		h1{
+			translate: 0px 25px;
+		}
+	}
+
+
+}
+
+@media(max-width: 500px) {
 
 	.column-10 {
 		display: block;
