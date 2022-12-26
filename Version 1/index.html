@@ -7,7 +7,7 @@
     <meta name="Keywords" content="home, services, gallery, projects, about, contact">
     <meta name="description"
         content="Central Florida Tapping is the premeire underground contractor in central florida, Demo, Water, Fire, reclaim, sewer and storm is what we are about">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
     <title>Central Florida Tapping</title>
     <link rel="icon" href="./images/logo_head.png">
@@ -126,15 +126,15 @@
                         </div>
                         <div class="col-12 col-sm-1"></div>
                         <div class="col-12 col-sm-6">
-                            <form class="index--form">
-                                <label for="fname">First Name</label>
+                            <form class="index--form" action="https://formsubmit.co/estimating@centralfloridatapping.com" method="POST">
+                                <label for="fname" required>First Name</label>
                                 <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-                                <label for="lname">Last Name</label>
+                                <label for="lname" required>Last Name</label>
                                 <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-                                <label for="cname">Company Name</label>
-                                <input type="text" id="cname" name="cname" placeholder="Company name..">
+                                <label for="emailn">Email</label>
+                                <input type="text" id="emailn" name="emailn" placeholder="Email">
 
                                 <label for="county">County</label>
                                 <select id="county" name="county">
@@ -148,12 +148,14 @@
                                     <option value="citrus_county">Citrus County/option>
                                     <option value="osceola_county">Osceola County</option>
                                     <option value="city_of_orlando">City of Orlando</option>
+                                    <option value="other">Other</option>
                                 </select>
                                 <label for="subject">Subject</label>
-                                <textarea id="subject" name="subject" placeholder="Write something.."
+                                <textarea id="subject" name="subject" placeholder="Write something..."
                                     style="height:200px"></textarea>
-
-                                <a href="mailto:estimating@centralfloridatapping.com">
+                                    <input type="hidden" name="_subject" value="New submission!">
+                                    <input type="file" name="attachment" accept="image/png/PDF, image/jpeg/PDF" class="file">
+                                <button type="submit">
                                     <div>Submit</div>
                             </form>
                         </div>

@@ -9,10 +9,10 @@ $background-color_5: rgb(86, 216, 26);
 	box-sizing: border-box; 
 
 }
-.tab {
-	translate: 50px 30px;
+.tab_app {
+	translate: 60px 30px;
 	float: none;
-	border: 1px solid #ccc;
+	border: 3px solid #ccc;
 	background-color: $background-color_1;
 	width: 30%;
 	height: fit-content;
@@ -34,8 +34,15 @@ $background-color_5: rgb(86, 216, 26);
 	button.active {
 		background-color: $background-color_4;
 	}
+	&:hover{
+		transform: scale(110%);
+		transition-duration: 1s;
+	}
+	 &:hover::after{
+	 transition: 1s ease-out;
+	 }
 }
-.tabcontent {
+.tabcontent_app {
 	float: left;
 	padding: 0px 12px;
 	padding-left: 20px;
@@ -45,12 +52,13 @@ $background-color_5: rgb(86, 216, 26);
 	height: 300px;
 }
 
-.block_title{
+.block_title_app{
 	text-align: center;
 	padding: 3%;
-	font-size: larger;
+	font-size: x-large;
 	font-style: italic;
-	font-weight: 500;
+	font-weight: 700;
+	text-decoration: underline;
 }
 
 
