@@ -99,17 +99,22 @@ p {
 }
 
 .box--index {
-	background-color: $background-color_4;
+	background: rgb(0, 0, 0);
+	background: radial-gradient(circle, rgba(0, 0, 0, 0.7077424719887955) 0%, rgba(0, 0, 0, 0.774969362745098) 100%);
 	height: 350px;
 	padding: 10px;
 
 	p {
 		font-size: x-large;
 		text-align: center;
+		font-family: 'Petrona', serif;
+		color: white;
 	}
 
 	h1 {
 		font-size: xxx-large;
+		font-family: 'Petrona', serif;
+		color: white;
 	}
 }
 
@@ -191,7 +196,7 @@ p {
 		object-fit: cover;
 	}
 
-	.jobdesc{
+	.jobdesc {
 		font-size: medium;
 	}
 }
@@ -288,15 +293,55 @@ input[type=submit] {
 	flex-direction: column;
 	justify-content: center;
 	padding: 50px;
+
 	button{
-		width: 10em;
-		border-radius: 10%;
 		margin-top: 15px;
+		translate: 55px;
 	}
-	.file{
-		padding: 10px;
-		margin-top: 10px;
-	}
+}
+
+.button-contact {
+	padding: 9px 25px;
+	background-color: rgba(0, 37, 180, 0.9);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+}
+
+.button:hover {
+	background-color: #555;
+}
+
+.button-submit {
+	padding: 9px 25px;
+	background-color: rgba(0, 37, 180, 0.9);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 70%;
+}
+
+.button:hover {
+	background-color: #555;
 }
 
 
@@ -348,9 +393,22 @@ input[type=submit] {
 		h1 {
 			padding-top: 15px;
 			font-size: x-large;
+			font-family: 'Petrona', serif;
+			color: white;
 		}
 
 
+	}
+
+	.index--form {
+		button {
+			translate: 0px;
+			width: fit-content;
+		}
+	}
+
+	.button-contact {
+		visibility: hidden;
 	}
 
 	.section-2 {
@@ -401,7 +459,8 @@ input[type=submit] {
 		.jobdesc {
 			visibility: hidden;
 		}
-		h2{
+
+		h2 {
 			height: fit-content;
 		}
 
@@ -415,17 +474,13 @@ input[type=submit] {
 		font-size: large;
 	}
 
-	.box--index{
+	.box--index {
 		height: 220px;
 
-		h1{
+		h1 {
 			translate: 0px 25px;
 		}
 	}
 
 
 }
-
-
-
-
