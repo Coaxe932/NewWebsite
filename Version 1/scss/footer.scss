@@ -20,6 +20,8 @@ $footer: #222;
 	text-align: left;
 	font: bold 16px sans-serif;
 	padding: 35px 30px;
+	height: 130px;
+	translate: 0px 20px;
 }
 
 .footer-distributed {
@@ -51,8 +53,10 @@ $footer: #222;
 	font-size: x-large;
 }
 
-.footer_links {
+.footer_links > a{
 	float: right;
+	color: white;
+	margin-left: 10px;
 }
 
 
@@ -60,11 +64,15 @@ $footer: #222;
 @media(max-width: 425px) {
 
 	.footer_distributed{
-		height: 235px;
+		height: 225px;
 	}
 
 	.footer-1{
 		height: 280px;
+	}
+
+	.footer_p{
+		font-size: large;
 	}
 
 
